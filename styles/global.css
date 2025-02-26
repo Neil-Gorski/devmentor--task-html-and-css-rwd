@@ -1,0 +1,36 @@
+body {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-areas:
+    "home"
+    "features"
+    "review"
+    "price"
+    "download"
+    "links"
+    "footer";
+}
+
+.section__home {
+  grid-area: home;
+  background-image: url("../images/banner/banner.png");
+}
+.section__features {
+  grid-area: features;
+}
+.section__review {
+  grid-area: review;
+  background-image: url("../images/banner/testmonial.png");
+}
+.section__price {
+  grid-area: price;
+}
+.section__download {
+  grid-area: download;
+}
+.section__links {
+  grid-area: links;
+}
+.section__footer {
+  grid-area: footer;
+}
