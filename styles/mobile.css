@@ -1,0 +1,27 @@
+.navbar__container {
+  height: 34px;
+  background-color: #2c2c2c;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  height: 20px;
+  margin-left: 10px;
+}
+.navbar__list {
+  display: none;
+}
+
+.navbar__btn-download {
+  display: none;
+}
+
+.navbar__hamburger {
+  margin-right: 10px;
+  display: inline-block;
+  transform: scale(1.6, 0.9);
+  color: #fefefe;
+}
