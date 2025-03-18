@@ -25,3 +25,31 @@
   transform: scale(1.6, 0.9);
   color: #fefefe;
 }
+
+.home__header {
+  margin: 25px 10px 2px;
+  font-size: 1.2em;
+  text-wrap: unset;
+  line-height: 1.1;
+  font-weight: 300;
+}
+
+.home__text {
+  font-size: 0.6em;
+  margin: 0 10px;
+}
+
+.home__btn {
+  margin: 28px 10px;
+  background-color: #37ebed;
+  border: solid transparent 1px;
+  height: 31px;
+  width: 115px;
+  border-radius: 5px;
+  color: #feffff;
+  font-size: 0.7em;
+}
+
+.home__phone {
+  transform: scale(0.95);
+}

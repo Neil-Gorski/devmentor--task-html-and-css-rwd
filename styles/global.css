@@ -58,6 +58,9 @@ body {
 .container {
   max-width: 1000px;
 }
+.section__home {
+  color: #fffafd;
+}
 
 #navbar__hamburger {
   display: none;
@@ -66,6 +69,9 @@ body {
 .section__home {
   grid-area: home;
   background-image: url("../images/banner/banner.png");
+  background-size: cover;
+  background-position: 77%;
+  background-repeat: no-repeat;
 }
 .section__features {
   grid-area: features;
