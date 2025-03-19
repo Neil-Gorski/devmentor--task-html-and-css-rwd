@@ -51,5 +51,18 @@
 }
 
 .home__phone {
+  margin-top: 10px;
   transform: scale(0.95);
+}
+
+.features__header-cards {
+  text-align: center;
+}
+
+.feature__container-card {
+  outline: solid red 1px;
+}
+
+.feature__container-icon {
+  background-color: #0885f6;
 }
