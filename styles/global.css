@@ -92,3 +92,54 @@ body {
 .section__footer {
   grid-area: footer;
 }
+
+.feature__container-icon--background {
+  height: 65px;
+  width: 65px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__icon-img {
+  transform: scale(0.6);
+}
+
+.feature__container-icon-background--blue {
+  background: linear-gradient(
+    90deg,
+    rgba(10, 133, 245, 1) 0%,
+    rgba(95, 178, 255, 1) 100%
+  );
+}
+
+.feature__container-icon-background--orange {
+  background: linear-gradient(
+    90deg,
+    rgba(253, 187, 120, 1) 0%,
+    rgba(253, 161, 121, 1) 100%
+  );
+}
+
+.feature__container-icon-background--green {
+  background: linear-gradient(
+    90deg,
+    rgba(58, 239, 143, 1) 0%,
+    rgba(62, 239, 145, 1) 100%
+  );
+}
+
+.feature__container-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.feature__card-text {
+  font-weight: 300;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  line-height: 24px;
+}
