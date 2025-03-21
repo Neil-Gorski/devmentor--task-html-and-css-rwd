@@ -60,9 +60,38 @@
   margin-bottom: 20px;
 }
 
-.feature__container-card {
-  outline: solid red 1px;
-}
 .features__container-cards {
   margin-bottom: 76px;
+}
+
+.features__download-header {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  padding-right: 10px;
+  margin-bottom: 12px;
+}
+
+.features__download-text {
+  font-size: 10px;
+  text-align: left;
+  line-height: 17px;
+  padding: 0 10px;
+  margin-bottom: 19px;
+}
+
+.features__download-btn {
+  margin: 0 0 15px 10px;
+  background-color: #0181f5;
+  border: solid transparent 1px;
+  height: 31px;
+  width: 115px;
+  border-radius: 5px;
+  color: #feffff;
+  font-size: 0.7em;
+}
+
+.features__container-download-img {
+  padding: 10px;
+  margin: 0 0 22px 0;
 }
