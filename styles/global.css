@@ -102,12 +102,15 @@ body {
 }
 .section__price {
   grid-area: price;
+  background-color: #fafafa;
 }
 .section__download {
   grid-area: download;
+  background-color: #5db2ff;
 }
 .section__links {
   grid-area: links;
+  background-color: #1f1f1f;
 }
 .section__footer {
   grid-area: footer;
@@ -192,4 +195,87 @@ body {
 .review__rating-name {
   color: #f4f9fd;
   font-size: 8px;
+}
+
+.container__price {
+  margin-top: 28px;
+  text-align: center;
+}
+.price__header {
+  font-size: 18px;
+  margin-bottom: 11px;
+}
+.price__text {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.price__cards-container {
+  margin: 20px 10px 0;
+}
+
+.price__card-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #e9f4fe;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+.price__card-container {
+  margin-bottom: 17px;
+  background-color: #ffffff;
+}
+
+.price__card-plan {
+}
+
+.price__card-price--blue {
+  color: #0b81f5;
+}
+
+.price__card-price--orange {
+  color: #fdae5f;
+}
+
+.price__card-price--green {
+  color: #0cd56a;
+}
+.price__card-body {
+  padding: 18px;
+}
+.price__card-list-item {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.price__card-btn {
+  font-size: 9px;
+  background-color: #ffffff;
+  border: solid #aad6ff 1px;
+  border-radius: 3px;
+  padding: 5px 15px;
+  color: #7cbcff;
+}
+
+.container__download {
+}
+.download__header {
+  text-align: center;
+  margin-top: 68px;
+  color: #fefeff;
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.download__btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  margin-bottom: 60px;
+}
+
+.download__btn {
+  height: 30px;
 }
