@@ -111,9 +111,12 @@ body {
 .section__links {
   grid-area: links;
   background-color: #1f1f1f;
+  color: #fefefe;
 }
 .section__footer {
   grid-area: footer;
+  background-color: #000000;
+  color: #afbfc3;
 }
 
 .feature__container-icon--background {
@@ -228,9 +231,6 @@ body {
   background-color: #ffffff;
 }
 
-.price__card-plan {
-}
-
 .price__card-price--blue {
   color: #0b81f5;
 }
@@ -259,8 +259,6 @@ body {
   color: #7cbcff;
 }
 
-.container__download {
-}
 .download__header {
   text-align: center;
   margin-top: 68px;
@@ -278,4 +276,76 @@ body {
 
 .download__btn {
   height: 30px;
+}
+
+.links__social-container {
+  padding: 20px 10px 15px;
+}
+.links__services-container,
+.links__useful-container,
+.links__download-container {
+  padding: 0 10px 15px;
+}
+.links__social-header {
+  margin-top: 18px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.links__social-text {
+  margin-top: 11px;
+  font-size: 10px;
+  font-weight: 200;
+  color: #b0a7a7;
+}
+
+.links__social-icons-container {
+  display: flex;
+  gap: 6px;
+  margin-top: 18px;
+}
+
+.links__social-icon {
+  display: flex;
+  background-color: #565656;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #c7c7c7;
+}
+
+.links__services-header,
+.links__useful-header,
+.links__download-header {
+  font-size: 13px;
+}
+
+.links__services-list,
+.links__useful-list,
+.links__download-list {
+  margin-top: 20px;
+  font-size: 8px;
+}
+
+.links__services-list-item,
+.links__useful-list-item,
+.links__download-list-item {
+  margin-bottom: 12px;
+  color: #b0a7a7;
+}
+
+.footer__container {
+  padding: 20px 0;
+  font-size: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer__link {
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
 }
