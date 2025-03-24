@@ -1,8 +1,8 @@
 .section__home {
-  height: 100lvh;
   background-size: contain;
   background-position: unset;
   background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
 .home__container-content {
   display: flex;
