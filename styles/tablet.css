@@ -1,5 +1,9 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
 .section__home {
-  background-size: contain;
+  background-size: cover;
   background-position: unset;
   background-repeat: no-repeat;
   margin-bottom: 100px;
@@ -62,7 +66,34 @@
 .price__card-container--front {
   z-index: 2;
 }
-
+.container__download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .download__header {
   font-size: 30px;
+  text-align: left;
+  padding-right: 50px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.container__links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.links__social-header {
+  margin: unset;
+}
+
+.links__social-container,
+.links__services-container,
+.links__useful-container,
+.links__download-container {
+  padding: unset;
 }
