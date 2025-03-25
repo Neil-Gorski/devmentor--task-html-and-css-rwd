@@ -1,0 +1,45 @@
+.container {
+  max-width: unset;
+  margin: 0 auto;
+}
+
+.navbar__container {
+  height: 34px;
+  background-color: transparent;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10px;
+}
+
+.navbar__logo {
+  height: 20px;
+  margin-left: 0;
+}
+.navbar__list {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar__btn-download {
+  display: block;
+  background-color: #42b3fa;
+  border: solid transparent 1px;
+  height: 31px;
+  width: 115px;
+  border-radius: 5px;
+  color: #feffff;
+  font-size: 0.7em;
+}
+
+.navbar__hamburger {
+  display: none;
+}
+
+.navbar__list-item--arrow::after {
+  content: ">";
+  display: inline-block;
+  transform: rotate(90deg);
+  margin-left: 5px;
+}
