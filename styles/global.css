@@ -352,6 +352,15 @@ body {
   margin-bottom: 20px;
 }
 
+.price__card-head--blue {
+  background-color: #e9f4fe;
+}
+.price__card-head--orange {
+  background-color: #fef4ee;
+}
+.price__card-head--green {
+  background-color: #e8fcf1;
+}
 .price__card-btn {
   font-size: 9px;
   background-color: #ffffff;

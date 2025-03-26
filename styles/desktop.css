@@ -43,3 +43,225 @@
   transform: rotate(90deg);
   margin-left: 5px;
 }
+
+.section__home {
+  height: 100vh;
+}
+
+.home__container-content {
+  display: grid;
+  height: 50%;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 0 0 30px;
+}
+
+.home__header {
+  font-size: 4em;
+  margin: 31% 0 20px 0;
+}
+
+.home__text {
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+
+.home__btn {
+  font-size: 1em;
+  padding: 10px 20px;
+  width: auto;
+  height: auto;
+}
+
+.home__phone {
+  margin-top: 22%;
+  max-height: unset;
+  transform: scale(0.9);
+}
+
+.features__header-cards {
+  display: inline-block;
+  font-size: 2em;
+  width: 25%;
+  text-wrap: unset;
+}
+.features__header-cards--container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.feature__container-card {
+  transform: scale(1.5);
+}
+
+.features__container-download {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10%;
+}
+
+.features__container-download-text {
+  margin: 15% 0 50px 0;
+}
+
+.features__download-header {
+  font-size: 2.5em;
+  text-wrap: unset;
+}
+
+.features__download-text {
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.features__download-btn {
+  font-size: 1em;
+  padding: 10px 20px;
+  width: auto;
+  height: auto;
+}
+
+.section__features {
+  height: 120vh;
+}
+
+.features__container-download-img {
+  margin-top: 14%;
+}
+
+.section__review {
+  height: 80vh;
+}
+
+.review__header {
+  font-size: 2.5em;
+  line-height: 1.2em;
+  margin-bottom: 5%;
+}
+
+.review__text {
+  font-size: 1em;
+  max-width: 1000px;
+}
+
+.review__rating-star {
+  font-size: 1.5em;
+}
+
+.review__rating-name {
+  font-size: 1.2em;
+}
+
+.container__review {
+  padding-top: 10%;
+}
+
+.section__price {
+  height: 100vh;
+}
+
+.container__price {
+  height: 100%;
+  padding-top: 10%;
+}
+
+.price__header {
+  font-size: 2.5em;
+}
+
+.price__text {
+  font-size: 1.1em;
+  margin-bottom: 50px;
+}
+
+.price__cards-container {
+  height: 67%;
+}
+
+.price__card-container {
+  width: 25%;
+}
+
+.price__card-head {
+  font-size: 1.2em;
+}
+
+.price__card-list-item {
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+
+.section__download {
+  height: 45vh;
+}
+
+.container__download {
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.download__header {
+  font-size: 3em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.download__btn-container {
+  margin: 0 20px 0 0;
+  gap: 20px;
+}
+
+.download__btn {
+  height: 4em;
+}
+
+.section__links {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.container__links {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.links__social-header,
+.links__services-header,
+.links__useful-header,
+.links__download-header {
+  font-size: 1.5em;
+}
+
+.links__social-container {
+  grid-column: span 2;
+}
+
+.links__social-header {
+  margin-bottom: 30px;
+}
+.links__social-text {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.links__social-icon {
+  height: 40px;
+  width: 40px;
+}
+.fa-brands {
+  font-size: 1rem;
+}
+
+.links__services-list-item,
+.links__useful-list-item,
+.links__download-list-item {
+  font-size: 1rem;
+}
+
+.footer__text,
+.footer__link {
+  font-size: 1rem;
+}
